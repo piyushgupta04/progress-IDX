@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius&family=Delius+Swash+Caps&display=swap");
+/*
+font-family: "Delius", cursive;
+font-family: "Delius Swash Caps", cursive;
+*/
+
+.font0{
+    font-family: "Delius", cursive;
+}
+.font1{
+    font-family: "Delius Swash Caps", cursive;
+}
