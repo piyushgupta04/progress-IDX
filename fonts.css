@@ -1,22 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Delius&family=Delius+Swash+Caps&family=Noto+Color+Emoji&family=Roboto+Slab:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Delius&family=Delius+Swash+Caps&family=Noto+Color+Emoji&family=Roboto+Slab:wght@100..900&display=swap");
 
 .font-1 {
-    font-family: "Delius", cursive;
+  font-family: "Delius", cursive;
 }
 
 .font-2 {
-    font-family: "Delius Swash Caps", cursive;
-
+  font-family: "Delius Swash Caps", cursive;
 }
 
 .font-3 {
-    font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .font-4 {
-    font-family: "Noto Color Emoji", sans-serif;
+  font-family: "Noto Color Emoji", sans-serif;
 }
 
 .font-5 {
-    font-family: "Arvo", serif;
+  font-family: "Arvo", serif;
+}
+
+.tw-bg {
+  background: hsla(234, 84%, 12%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(234, 84%, 12%, 1) 0%,
+    hsla(221, 21%, 40%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(234, 84%, 12%, 1) 0%,
+    hsla(221, 21%, 40%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(234, 84%, 12%, 1) 0%,
+    hsla(221, 21%, 40%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#050A39", endColorstr="#515E7B", GradientType=1);
 }

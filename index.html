@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="dist/output.css">
   <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -16,30 +17,42 @@
 
 <body>
   <section
-    class="s1 max-w-full h-16 bg-indigo-500 lg:max-w-7xl xl:rounded-2xl xl:mt-4 sm:mx-auto transition-all delay-100">
-    <div class="nav-bg flex items-center justify-between h-full px-4">
-      <div class=" font0 font-semibold text-[23px]  flex justify-center space-x-3 items-center text-white">JavaScript
-      </div>
-      <a href="https://github.com/piyushgupta04" target="_blank">
-        <div class="git-d flex items-center space-x-2">
-          <img class="h-7 w-7" src="icons/github-mark-white.svg" alt="GitHub Logo">
-          <p class="git-name text-[17px] font-semibold font1 hidden lg:inline text-white">piyushgupta04</p>
+    class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+    <section class="wrapper">
+      <div class="container mx-auto md:max-w-[90vw]">
+        <div
+          class="text-4xl text-white bg-neutral-700 font-5 h-16 w-full sm:rounded-2xl sm:mt-6 px-4 flex items-center justify-between">
+          <div class="tw-text flex justify-center items-center h-full">Tailwind</div>
+          <div class="git-box text-[20px] flex items-center justify-center box-border gap-2 h-[90%]">
+            <div class="logo p-1 box-border flex justify-center items-center"><img src="icons/github-mark-white.png"
+                class="h-9 w-auto fill-white" alt=""></div>
+            <div class="text hidden  md:inline-flex md:justify-center md:items-center ">piyushgupta04</div>
+          </div>
         </div>
-      </a>
-    </div>
-  </section>
-  <section
-    class="sec-2 max-w-screen lg:max-w-7xl xl:mt-4 xl:rounded-2xl lg:mx-auto min-h-[80vh] transition delay-75 bg-indigo-100 box-border p-3">
-    <div class="hero flex flex-col max-w-screen sm:flex-row sm:space-x-1.5">
-      <div class="image-div w-full max-w-[340px] max-h-[340px] min-w-[100px] min-h-[100px] overflow-hidden flex items-center justify-center bg-indigo-500">
-        <img src="icons/800-800 example temp.png" alt="" class="w-full h-full object-contain">
-      </div>      
-      <div class="text-div">
-        <p class="myself">I'm <span class="font-bold">Piyush Gupta</span></p>
-        <p class="">A BCA student who is going to be the best <span class="font-bold">Web Developer</span> ever!</p>
       </div>
-    </div>
+
+    </section>
+    <section class="content container mx-auto">
+      <div class="block mt-6 font-5 ">
+        <div class="card text-white text-[20px] w-[90%] xl:max-w-[90%] flex items-center justify-between h-auto mx-auto">
+          <div class="info pr-3">
+            <h3>Name</h3>
+            <p class="">Lil info | Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="links flex self-stretch justify-center gap-2">
+            <div class="resource w-10 h-full flex justify-center items-center"><span class=" material-symbols-outlined">
+            file_save
+              </span></div>
+            <div class="repo-link w-10 h-full flex justify-center items-center "><span class=" material-symbols-outlined">
+              link
+              </span></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
   </section>
+
 </body>
 
 </html>
