@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="dist/output.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -14,34 +14,37 @@
   <link rel="stylesheet" href="fonts.css">
   <title>Js</title>
 </head>
-
-<body>
-  <section
-    class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+  <body class="main-bg bg-fixed bg-gradient-to-l from-neutral-950 via-gray-950 to-zinc-900 box-border h-full w-full">
     <section class="nav-section w-full">
-      <div class="nav-container px-3.5 h-14 flex items-center justify-between border-b-2 sm:max-w-[90%] sm:border-2 sm:rounded-2xl sm:mt-5 xl:w-11/12 mx-auto border-[#373753] bg-gradient-to-br from-[#20202f] to-[#0a0a0a] from-10% font-5">
-        <div class="tw font-semibold text-white text-2xl h-full flex items-center">Tailwind</div>
-        <div class="github-box text-white text-2xl h-full flex">
-          <div class="gh-svg flex items-center"><img src="/icons/github-mark-white.png" class=" p-1.5 h-10 w-auto" alt=""></div>
+      <div
+        class="nav-container px-3.5 h-14 flex items-center justify-between border-b-2 sm:max-w-[90%] sm:border-2 sm:rounded-2xl sm:mt-5 xl:w-11/12 mx-auto border-[#373753] bg-gradient-to-br from-neutral-950  to-transparent font-5 transition-all duration-100 ease-in-out">
+        <div class="tw font-semibold text-white text-2xl h-full flex items-center">Tailwind IDX</div>
+        <div class="github-box text-white text-2xl h-full flex gap-1">
+          <div class="gh-svg flex items-center"><img src="/icons/github-mark-white.png" class=" p-1.5 h-10 w-auto"
+              alt=""></div>
           <div class="user items-center hidden sm:inline-flex">piyushgupta04</div>
         </div>
       </div>
     </section>
     <section class="main wrapper box-border  max-w-full sm:max-w-10/12 h-screen sm:mx-auto mt-5">
-      <div class="my-container px-2.5 h-full w-full">
-        <div class="card text-white font-5 flex flex-col gap-3">
+      <div class="note">
+        
+      </div>
+      <div class=" my-container space-y-2 px-2.5 h-full w-full ">
+        <div class="card transition-all duration-100 ease-in-out border-2 border-[#373753] p-3 rounded-2xl bg-gradient-to-br from-neutral-950  to-transparent text-white font-5 flex flex-col gap-5 md:flex-row md:justify-between">
           <div class="desc-box">
-            <h3 class="font-semibold">Tailwind Min/Max</h3>
-            <p>About tailwind and CSS min max property!</p>
+            <h3 class="font-semibold mb-0.5">Multiple Stuff</h3>
+            <p class="text-justify">Things I learned while making this page! [ xxx, xxx, xxx, xxx ]</p>
+            <p class="animate-pulse">Last modified on: <span id="updateDate">April 14, 11:32 PM</span></p>
           </div>
-          <div class="reso-box flex items-center">
+          <div class="reso-box flex items-center gap-1.5 md:gap-2">
             <div class="excali-link">
-              <span class="material-symbols-outlined">
+              <span style="font-size: 26px;" class="material-symbols-outlined">
                 file_save
                 </span>
             </div>
             <div class="repo">
-              <span class="material-symbols-outlined">
+              <span style="font-size: 26px;" class="material-symbols-outlined">
                 arrows_more_up
                 </span>
             </div>
@@ -49,8 +52,5 @@
         </div>
       </div>
     </section>
-  </section>
-
-</body>
-
+  </body>
 </html>
